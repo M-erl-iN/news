@@ -38,6 +38,8 @@ dependencies {
     implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
 
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.6'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 }
 
 tasks.named('test') {
